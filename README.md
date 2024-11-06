@@ -41,11 +41,13 @@ This project aims to predict electricity spot prices using an LSTM neural networ
 
 2. **Run the Script**:
    Start the server:
-   ```bash```
+   ```bash
    python modbus_server.py
    ```
+
+   
    Execute the main script:
-   ```bash```
+   ```bash
    python Forecasting.py
    ```
    The script:
