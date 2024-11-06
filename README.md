@@ -37,12 +37,16 @@ This project aims to predict electricity spot prices using an LSTM neural networ
    ```
 
 ## Usage
-1. **Prepare Data**: Place monthly electricity spot price data CSV files in the `/unused` directory, each containing `SETTLEMENTDATE` and `RRP` columns.
+1. **Prepare Data**: Place monthly electricity spot price data CSV files in the `/unused` directory, each containing at least `SETTLEMENTDATE` and `RRP` columns.
 
 2. **Run the Script**:
+   Start the server:
+   ```bash```
+   python modbus_server.py
+   ```
    Execute the main script:
-   ```bash
-   python main.py
+   ```bash```
+   python Forecasting.py
    ```
    The script:
    - Loads and preprocesses data.
